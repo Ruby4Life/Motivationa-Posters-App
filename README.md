@@ -4,6 +4,11 @@
 
 ###Instructions:
 
+Open the link below in your mobile browser
+
+http://peaceful-inlet-4004.herokuapp.com
+
+
 Step 1 Select an Image
 
 
