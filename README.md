@@ -4,6 +4,11 @@
 
 ###Instructions:
 
+Open the link below in your mobile browser
+
+http://peaceful-inlet-4004.herokuapp.com
+
+
 Step 1 Select an Image
 
 
@@ -19,7 +24,7 @@ Step 4 Send the link provided to any person you wish to motivate.
 
 
 ###Languages used:
-Ruby, HTML, Java Script, BootStrap, ...
+Ruby, HTML, Java Script, BootStrap, Sinatra, Rake, Tilt, jQuery and Ajax. 
 
 
 
