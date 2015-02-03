@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+	 <title>Motivational Posters</title>
+
+	 
+   
+  
+	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+
+  <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+
+  <script src="/javascript/support.js"></script>        
+
+  <script src="/javascript/application.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script type='text/javascript' src="http://twitter.github.com/bootstrap/assets/js/bootstrap.min.js"></script>
+
+
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+
+    <link href="/css/application.css" rel="stylesheet" type="text/css">
+
+</head>
+
+
+	<body>
+
+		<header>
+			<h1>Motivational Posters</h1>
+		</header>
+       
+      <section id="select-image">
+      	<h2>Step 1. Select an image</h2>
+      	<p>Enter keyword to search for images</p>
+      	
+
+        
+      	
+
+        <div>
+   <form class="bs-example bs-example-form" role="form">
+    
+            
+         <div class="col-lg-6">
+            <div class="input-group">
+               <input id="search-term" type="text" class="form-control">
+               <span class="input-group-btn">
+                  <button id="go-search" class="btn btn-success" type="button">
+                     Go!
+                  </button>
+               </span>
+            </div><!-- /input-group -->
+         </div><!-- /.col-lg-6 -->
+      </div><!-- /.row -->
+   </form>
+</div>
+      
+
+
+      	
+
+        
+
+
+       
+      	<div id="search-results" href="#style-image"></div>
+    
+      </section>
+          <section id="add-text">
+<div id="branding"></div>
+      <h2>Step 2. Add Text</h2>
+
+      <input id="text" type="text" class="input-small" value="If You Believe, You Can Achieve!">  
+
+    </section>
+
+        <section id="style-image" >
+
+      <h2>Step 3. Style it!</h2>
+
+      <div id="workspace">
+
+        <p id="caption"></p>
+
+      </div>
+
+<br>
+    <div id="controls">
+
+     
+      Left: <input type="number" value="32" id="left">
+
+      Top: <input type="number" value="32" id="top">
+
+      Width: <input type="number" value="400" id="width"> 
+
+      Size: <input type="number" value="32" id="size">
+      
+      <button id="ChangePhoto" class="btn btn-success btn-sm" type="button" href"select-image">Change Photo
+        </button>
+         
+        <br><br>
+            Align:  <select id="align">
+              <option>left</option>
+              <option>right</option>
+              <option>center</option>
+            </select>
+<br><br>
+      
+       Text Colour:<p></p>       
+        <select id="colour">
+      
+        <option>AliceBlue</option>
+             <option>AntiqueWhite</option>
+              <option>Aqua</option>
+              <option>Aquamarine</option>
+              <option>Azure</option>
+              <option>Beige</option>
+              <option>Bisque</option>
+              <option>BlanchedAlmond</option>
+              <option>BlueViolet</option>
+              <option>Brown</option>
+              <option>BurlyWood</option>
+              <option>CadetBlue</option>
+              <option>Chartreuse</option>
+              <option>Chocolate</option>
+              <option>Coral</option>
+              <option>CornflowerBlue</option>
+              <option>Cornsilk</option>
+              <option>Crimson</option>
+              <option>Cyan</option>
+              <option>DarkBlue</option>
+              <option>DarkCyan</option>
+              <option>DarkGoldenRod</option>
+              <option>DarkGray</option>
+              <option>DarkGreen</option>
+              <option>DarkKhaki</option>
+              <option>DarkMagenta</option>
+              <OPTION>DarkOliveGreen</OPTION>
+              <OPTION>DarkOrange</OPTION>
+              <OPTION>DarkOrchid</OPTION>
+              <OPTION>DarkRed</OPTION>
+              <OPTION>DarkSalmon</OPTION>
+              <OPTION>DarkSeaGreen</OPTION>
+              <OPTION>DarkSlateBlue</OPTION>
+              <OPTION>DarkSlateGray</OPTION>
+              <OPTION>DarkTurquoise</OPTION>
+              <OPTION>DeepPink</OPTION>
+              <OPTION>DeepSkyBlue</OPTION>
+              <OPTION>DimGray</OPTION>
+              <OPTION>DodgerBlue</OPTION>
+              <OPTION>FireBrick</OPTION>
+              <OPTION>FloralWhite</OPTION>
+              <OPTION>ForestGreen</OPTION> 
+              <OPTION>Fuchsia</OPTION>
+              <OPTION>Gainsboro</OPTION>
+              <OPTION>GhostWhite</OPTION>
+              <OPTION>Gold</OPTION>
+              <OPTION>GoldenRod</OPTION>
+              <OPTION>Gray</OPTION>
+              <OPTION>Green</OPTION>
+              <OPTION>GreenYellow</OPTION>
+              <OPTION>HoneyDew</OPTION>
+              <OPTION>HotPink</OPTION>
+              <OPTION>IndianRed</OPTION>
+              <OPTION>Indigo</OPTION>
+              <OPTION>Ivory</OPTION>
+              <OPTION>Khaki</OPTION>
+              <OPTION>Lavender</OPTION>
+              <OPTION>LavenderBlush</OPTION>
+              <OPTION>LawnGreen</OPTION>
+              <OPTION>LemonChiffon</OPTION>
+              <OPTION>LightBlue</OPTION>
+              <OPTION>LightCoral</OPTION>
+              <OPTION>LightCyan</OPTION>
+              <OPTION>LightGoldenRodYellow</OPTION>
+              <OPTION>LightGray</OPTION>
+              <OPTION>LightGreen</OPTION>
+              <OPTION>LightPink</OPTION> 
+              <OPTION>LightSalmon</OPTION>
+              <OPTION>LightSeaGreen</OPTION>
+              <OPTION>LightSkyBlue</OPTION>
+              <OPTION>LightSlateGray</OPTION>
+              <OPTION>LightSteelBlue</OPTION>
+              <OPTION>LightYellow</OPTION>
+              <OPTION>Lime</OPTION>
+              <OPTION>LimeGreen</OPTION>
+              <OPTION>Linen</OPTION>
+              <OPTION>Magenta</OPTION>
+              <OPTION>Maroon</OPTION>
+              <OPTION>MediumAquaMarine</OPTION>
+              <OPTION>MediumBlue</OPTION>
+              <OPTION>MediumOrchid</OPTION>
+              <OPTION>MediumPurple</OPTION>
+              <OPTION>MediumSeaGreen</OPTION>
+              <OPTION>MediumSlateBlue</OPTION>
+              <OPTION>MediumSpringGreen</OPTION>
+              <OPTION>MediumTurquoise</OPTION>
+              <OPTION>MediumVioletRed </OPTION>
+              <OPTION>MidnightBlue</OPTION>
+              <OPTION>MintCream</OPTION>
+              <OPTION>MistyRose</OPTION>
+              <OPTION>Moccasin</OPTION>
+              <OPTION>NavajoWhite</OPTION>
+              <OPTION>Navy</OPTION>
+              <OPTION>OldLace</OPTION>
+              <OPTION>Olive</OPTION>
+              <OPTION>OliveDrab</OPTION>
+              <OPTION>Orange</OPTION>
+              <OPTION>OrangeRed</OPTION>
+              <OPTION>Orchid</OPTION>
+              <OPTION>PaleGoldenRod</OPTION>
+              <OPTION>PaleGreen</OPTION>
+              <OPTION>PaleTurquoise</OPTION>
+              <OPTION>PaleVioletRed</OPTION>
+              <OPTION>PapayaWhip</OPTION>
+              <OPTION>PeachPuff</OPTION>
+              <OPTION>Peru</OPTION>
+              <OPTION>Pink</OPTION>
+              <OPTION>Plum</OPTION> 
+              <OPTION>PowderBlue</OPTION>
+              <OPTION>Purple</OPTION>
+              <OPTION>Red</OPTION>
+              <OPTION>RosyBrown</OPTION>
+              <OPTION>RoyalBlue</OPTION>
+              <OPTION>SaddleBrown</OPTION>
+              <OPTION>Salmon</OPTION>
+              <OPTION>SandyBrown</OPTION>
+              <OPTION>SeaGreen</OPTION>
+              <OPTION>SeaShell</OPTION>
+              <OPTION>Sienna</OPTION>
+              <OPTION>Silver</OPTION>
+              <OPTION>SkyBlue</OPTION>
+              <OPTION>SlateBlue</OPTION>
+              <OPTION>SlateGray</OPTION>
+              <OPTION>Snow</OPTION>
+              <OPTION>SpringGreen</OPTION>
+              <OPTION>SteelBlue</OPTION>
+              <OPTION>Tan</OPTION>
+              <OPTION>Teal</OPTION>
+              <OPTION>Thistle</OPTION>
+              <OPTION>Tomato</OPTION>
+              <OPTION>Turquoise</OPTION>
+              <OPTION>Violet</OPTION>
+              <OPTION>Wheat</OPTION>
+              <OPTION>White</OPTION>
+              <OPTION>WhiteSmoke</OPTION>
+              <OPTION>Yellow</OPTION>
+              <OPTION>YellowGreen</OPTION>
+
+            </select>   
+<br><br>
+            Border Colour:<p></p>
+        <select id="colour2">
+        <option>AliceBlue</option>
+             <option>AntiqueWhite</option>
+              <option>Aqua</option>
+              <option>Aquamarine</option>
+              <option>Azure</option>
+              <option>Beige</option>
+              <option>Bisque</option>
+              <option>BlanchedAlmond</option>
+              <option>BlueViolet</option>
+              <option>Brown</option>
+              <option>BurlyWood</option>
+              <option>CadetBlue</option>
+              <option>Chartreuse</option>
+              <option>Chocolate</option>
+              <option>Coral</option>
+              <option>CornflowerBlue</option>
+              <option>Cornsilk</option>
+              <option>Crimson</option>
+              <option>Cyan</option>
+              <option>DarkBlue</option>
+              <option>DarkCyan</option>
+              <option>DarkGoldenRod</option>
+              <option>DarkGray</option>
+              <option>DarkGreen</option>
+              <option>DarkKhaki</option>
+              <option>DarkMagenta</option>
+              <OPTION>DarkOliveGreen</OPTION>
+              <OPTION>DarkOrange</OPTION>
+              <OPTION>DarkOrchid</OPTION>
+              <OPTION>DarkRed</OPTION>
+              <OPTION>DarkSalmon</OPTION>
+              <OPTION>DarkSeaGreen</OPTION>
+              <OPTION>DarkSlateBlue</OPTION>
+              <OPTION>DarkSlateGray</OPTION>
+              <OPTION>DarkTurquoise</OPTION>
+              <OPTION>DeepPink</OPTION>
+              <OPTION>DeepSkyBlue</OPTION>
+              <OPTION>DimGray</OPTION>
+              <OPTION>DodgerBlue</OPTION>
+              <OPTION>FireBrick</OPTION>
+              <OPTION>FloralWhite</OPTION>
+              <OPTION>ForestGreen</OPTION> 
+              <OPTION>Fuchsia</OPTION>
+              <OPTION>Gainsboro</OPTION>
+              <OPTION>GhostWhite</OPTION>
+              <OPTION>Gold</OPTION>
+              <OPTION>GoldenRod</OPTION>
+              <OPTION>Gray</OPTION>
+              <OPTION>Green</OPTION>
+              <OPTION>GreenYellow</OPTION>
+              <OPTION>HoneyDew</OPTION>
+              <OPTION>HotPink</OPTION>
+              <OPTION>IndianRed</OPTION>
+              <OPTION>Indigo</OPTION>
+              <OPTION>Ivory</OPTION>
+              <OPTION>Khaki</OPTION>
+              <OPTION>Lavender</OPTION>
+              <OPTION>LavenderBlush</OPTION>
+              <OPTION>LawnGreen</OPTION>
+              <OPTION>LemonChiffon</OPTION>
+              <OPTION>LightBlue</OPTION>
+              <OPTION>LightCoral</OPTION>
+              <OPTION>LightCyan</OPTION>
+              <OPTION>LightGoldenRodYellow</OPTION>
+              <OPTION>LightGray</OPTION>
+              <OPTION>LightGreen</OPTION>
+              <OPTION>LightPink</OPTION> 
+              <OPTION>LightSalmon</OPTION>
+              <OPTION>LightSeaGreen</OPTION>
+              <OPTION>LightSkyBlue</OPTION>
+              <OPTION>LightSlateGray</OPTION>
+              <OPTION>LightSteelBlue</OPTION>
+              <OPTION>LightYellow</OPTION>
+              <OPTION>Lime</OPTION>
+              <OPTION>LimeGreen</OPTION>
+              <OPTION>Linen</OPTION>
+              <OPTION>Magenta</OPTION>
+              <OPTION>Maroon</OPTION>
+              <OPTION>MediumAquaMarine</OPTION>
+              <OPTION>MediumBlue</OPTION>
+              <OPTION>MediumOrchid</OPTION>
+              <OPTION>MediumPurple</OPTION>
+              <OPTION>MediumSeaGreen</OPTION>
+              <OPTION>MediumSlateBlue</OPTION>
+              <OPTION>MediumSpringGreen</OPTION>
+              <OPTION>MediumTurquoise</OPTION>
+              <OPTION>MediumVioletRed </OPTION>
+              <OPTION>MidnightBlue</OPTION>
+              <OPTION>MintCream</OPTION>
+              <OPTION>MistyRose</OPTION>
+              <OPTION>Moccasin</OPTION>
+              <OPTION>NavajoWhite</OPTION>
+              <OPTION>Navy</OPTION>
+              <OPTION>OldLace</OPTION>
+              <OPTION>Olive</OPTION>
+              <OPTION>OliveDrab</OPTION>
+              <OPTION>Orange</OPTION>
+              <OPTION>OrangeRed</OPTION>
+              <OPTION>Orchid</OPTION>
+              <OPTION>PaleGoldenRod</OPTION>
+              <OPTION>PaleGreen</OPTION>
+              <OPTION>PaleTurquoise</OPTION>
+              <OPTION>PaleVioletRed</OPTION>
+              <OPTION>PapayaWhip</OPTION>
+              <OPTION>PeachPuff</OPTION>
+              <OPTION>Peru</OPTION>
+              <OPTION>Pink</OPTION>
+              <OPTION>Plum</OPTION> 
+              <OPTION>PowderBlue</OPTION>
+              <OPTION>Purple</OPTION>
+              <OPTION>Red</OPTION>
+              <OPTION>RosyBrown</OPTION>
+              <OPTION>RoyalBlue</OPTION>
+              <OPTION>SaddleBrown</OPTION>
+              <OPTION>Salmon</OPTION>
+              <OPTION>SandyBrown</OPTION>
+              <OPTION>SeaGreen</OPTION>
+              <OPTION>SeaShell</OPTION>
+              <OPTION>Sienna</OPTION>
+              <OPTION>Silver</OPTION>
+              <OPTION>SkyBlue</OPTION>
+              <OPTION>SlateBlue</OPTION>
+              <OPTION>SlateGray</OPTION>
+              <OPTION>Snow</OPTION>
+              <OPTION>SpringGreen</OPTION>
+              <OPTION>SteelBlue</OPTION>
+              <OPTION>Tan</OPTION>
+              <OPTION>Teal</OPTION>
+              <OPTION>Thistle</OPTION>
+              <OPTION>Tomato</OPTION>
+              <OPTION>Turquoise</OPTION>
+              <OPTION>Violet</OPTION>
+              <OPTION>Wheat</OPTION>
+              <OPTION>White</OPTION>
+              <OPTION>WhiteSmoke</OPTION>
+              <OPTION>Yellow</OPTION>
+              <OPTION>YellowGreen</OPTION>
+
+            </select> 
+    </div>
+  <br>
+    <div id="twitter">
+    <a href="https://twitter.com/share" class="twitter-share-button" data-text="Motivational Posters App! simply customise and send the full link to someone you wish to motivate">Tweet</a>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</div>
+<br><br>
+
+<footer>
+  <a href="https://github.com/Ruby4Life"><img src="images/10782618.jpeg" width="90" height="90"  alt="Ruby4Life"></a></div>
+
+   <div>
+    This page uses <a href="http://www.google.co.uk">Google Image Search</a> ,<a href="http://rubyonrails.org/">Ruby</a>, <a href="http://www.sinatrarb.com/">Sinatra</a>, <a href="http://www.javascriptsource.com/">Javascript</a>, <a href="http://jquery.com/">jQuery</a>, <a href="http://api.jquery.com/jquery.ajax/">Ajax</a>, <a href="http://html.net/">HTML</a> and <a href="http://css-tricks.com/">CSS</a>.
+  </div>
+<div> <a href="http://uk.linkedin.com/in/appmaster32/"> Uploaded to Heroku by Faisal Aydarus</a></div>
+<br>
+</footer>
+
+    </section>
+
+	</body>
+
+	</html>
+
