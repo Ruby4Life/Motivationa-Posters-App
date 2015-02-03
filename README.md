@@ -1,10 +1,10 @@
-#Motivational-Posters-App
+#Motivational-Posters-App 
 
 ####Motivational-Posters-App is a simple web-app allowing the user to produce and share custom made posters with custom Text.
 
 ###Instructions:
 
-Open the link below in your mobile browser
+Open the link below in your Mobile browser
 
 http://peaceful-inlet-4004.herokuapp.com
 
