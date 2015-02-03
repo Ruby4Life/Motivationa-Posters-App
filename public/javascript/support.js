@@ -62,7 +62,7 @@ function updateTweetButton() {
             // .attr("data-url", window.location.href)
             .attr("href", "https://twitter.com/share")
             .addClass("twitter-share-button")
-            .attr("data-text", "I built Motivational Posters page @makersacademy today!")
+            .attr("data-text", "Motivational Posters App")
             .append($("Tweet"));
   a.appendTo('#twitter');
   twttr.widgets.load();
